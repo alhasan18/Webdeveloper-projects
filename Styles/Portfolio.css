@@ -1,0 +1,36 @@
+ /* Common shared style */
+ body{
+font-family: "Open Sans", sans-serif;
+  }
+ 
+
+/* styles for nav */
+nav{
+  display: flex;
+}
+
+nav > ul{
+  display: flex;
+}
+nav li{
+  margin-right: 40px;
+  list-style: none;
+}
+nav a{
+  text-decoration: none;
+  color: #474747;
+}
+.nav-title{
+  color: 181818;
+  font-size: 50px;
+  font font-weight: 800;
+  line height: normal;
+}
+.button-primary{
+  border-radius: 5px;
+  background-color: #FD6E0A;
+  color: white;
+}
+.text-primary{
+  color: #FD6E0A;
+}
