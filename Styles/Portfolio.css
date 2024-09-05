@@ -7,10 +7,13 @@ font-family: "Open Sans", sans-serif;
 /* styles for nav */
 nav{
   display: flex;
+  align-items: center;
+  justify-content: space-between ;
 }
 
 nav > ul{
   display: flex;
+  align-items: center;
 }
 nav li{
   margin-right: 40px;
@@ -21,15 +24,19 @@ nav a{
   color: #474747;
 }
 .nav-title{
-  color: 181818;
+  color: #181818;
   font-size: 50px;
-  font font-weight: 800;
-  line height: normal;
+   font-weight: 800;
+   line-height: normal;
 }
 .button-primary{
   border-radius: 5px;
   background-color: #FD6E0A;
   color: white;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
 .text-primary{
   color: #FD6E0A;
