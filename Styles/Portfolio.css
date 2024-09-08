@@ -150,4 +150,12 @@ main section{
 .download-cv{
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* style for footer */
+footer{
+  display: flex;
+  background: #fff8f3;
+  padding: 100px 150px;
 }
