@@ -156,6 +156,25 @@ main section{
 /* style for footer */
 footer{
   display: flex;
+  gap: 100px;
   background: #fff8f3;
   padding: 100px 150px;
+}
+.footer-column{
+  width: 50%;
+  /* 50% means duijon 50% kore width nibe */
+}
+.social-icon a{
+  margin-right: 25px;
+}
+
+.contract input[type = "text"],.contract input[type = "email"],textarea{
+  display: block;
+  margin-bottom: 25px;
+  color: #757575;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
 }
